@@ -5,7 +5,8 @@ const EstiloGlobal = createGlobalStyle`
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
-  }
+    list-style: none
+    }
 
   body {
     padding-top: 80px;
@@ -33,6 +34,8 @@ export const Container = styled.div`
 
   img {
     max-width: 100%;
-    rounded: 50%;
+  }
+  aside > img {
+    border-radius: 50%;
   }
 `
